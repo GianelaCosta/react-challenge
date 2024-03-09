@@ -1,13 +1,33 @@
-# Challenge React.js ![](https://pasteboard.co/byC31Sq5OMgz.png)
+# React App with Docker Compose
 
-1. 1. Fork this public repository ([https://github.com/sebasworkana/react-challenge.git](https://github.com/sebasworkana/react-challenge.git) ), and create a new branch with the name React-Challenge-"Name and Last Name", then push it to the created branch and give access to us to review the code.
-2. The main challenge is that you create a Page with the following Style and format.
-![alt text](https://imageupload.io/en/jfSVositjWovwnf)
+This repository contains a React application that can be easily set up and run using Docker Compose.
 
-1. You need to enumerate all Periodic table of the elements on CSS class and make use of it, matching words in First name and last name "Highlighting" them as in the image.
-2. First, install "react-redux", then use the useDispatch and useSelector react-redux hooks in the components.
-3. For this challenge use redux-thunk in it. Moreover, use the react-redux hooks to give a better impression and avoid older techniques. Share data among components without using props.
-4. Is mandatory to use linter like ESLINT
-5. Create npm scripts to run project and make sure to create a readme with instructions to run project
-6. Will be valuable if you can create Docker compose file to run all environment
-7. Use github pages to host web app and test
+## Prerequisites
+
+Before you start, make sure you have Docker and Docker Compose installed on your machine. You can download and install them from the official Docker website: [Docker](https://www.docker.com/get-started)
+
+## Getting Started
+
+Clone this repository to your local machine: git clone [(https://github.com/GianelaCosta/react-challenge)](https://github.com/GianelaCosta/react-challenge.git)
+
+Navigate to the project directory:
+
+### cd react-app-with-docker-compose
+
+Build the Docker images:
+
+### docker-compose build
+
+Run the Docker containers:
+
+### docker-compose up
+
+Open your web browser and go to http://localhost:3000 to view the running React application.
+
+## Stopping the Application
+
+Press Ctrl + C in the terminal where Docker Compose is running to stop the application and shut down the Docker containers.
+
+## Customization
+
+You can customize the React application by modifying the files in the src directory. Any changes you make will automatically be reflected when you refresh the browser.
