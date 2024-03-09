@@ -8,7 +8,7 @@ Before you start, make sure you have Docker and Docker Compose installed on your
 
 ## Getting Started
 
-Clone this repository to your local machine: git clone [[<repository_url>](https://github.com/GianelaCosta/react-challenge)](https://github.com/GianelaCosta/react-challenge.git)
+Clone this repository to your local machine: git clone [(https://github.com/GianelaCosta/react-challenge)](https://github.com/GianelaCosta/react-challenge.git)
 
 Navigate to the project directory:
 
